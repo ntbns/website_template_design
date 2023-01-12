@@ -38,7 +38,8 @@
    01. Typography CSS
 ===================================== */
 body {
-    color: #151515;
+    background-color: black;
+    color: white;
     font-size: 0.9375rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -54,13 +55,13 @@ body {
 
 /* Remove text-shadow in selection highlight. */
 ::-moz-selection {
-    background: #080b1a;
+    background: black;
     color: #FFFFFF;
     text-shadow: none;
 }
 
 ::selection {
-    background: #080b1a;
+    background: black;
     color: #FFFFFF;
     text-shadow: none;
 }
@@ -148,7 +149,7 @@ h5,
 h6,
 .h6 {
     font-weight: 400;
-    color: #151515;
+    color: rgb(210, 70, 32);
     line-height: 1.2;
 }
 
@@ -226,6 +227,7 @@ p {
 }
 
 p:last-child {
+    color: white;
     margin-bottom: 0;
 }
 
@@ -293,15 +295,15 @@ button:focus {
 02. Color CSS
 ============================*/
 .bg-white {
-    background-color: #FFFFFF;
+    background-color: black;
 }
 
 .bg-offwhite {
-    background-color: #f8f9fc;
+    background-color: black;
 }
 
 .bg-brand {
-    background-color: #080b1a;
+    background-color: black;
 }
 
 .bg-blackSoft {
@@ -309,7 +311,7 @@ button:focus {
 }
 
 .text-brand {
-    color: #080b1a;
+    color: black;
 }
 
 /*============================
@@ -361,7 +363,7 @@ Section Title
 
 .section-title--light h2,
 .section-title--light h6 {
-    color: #FFFFFF;
+    color: rgb(210, 70, 32);
 }
 
 /*----------------------
@@ -408,9 +410,10 @@ only screen and (max-width: 767.98px) {
 Button Style
 -----------------------*/
 .btn-outline {
-    border: 2px solid #080b1a;
+    border: 2px solid rgb(210, 70, 32);
+    background-color: rgb(210, 70, 32);
     border-radius: 100px;
-    color: #151515;
+    color: white;
     display: inline-block;
     font-size: 18px;
     font-weight: 600;
@@ -433,7 +436,7 @@ Button Style
 }
 
 .btn-outline:hover {
-    background-color: #080b1a;
+    background-color: black;
     color: #FFFFFF;
 }
 
@@ -476,7 +479,7 @@ only screen and (min-width: 1200px) {
 }
 
 .slick-dots li button {
-    border: 2px solid #080b1a;
+    border: 2px solid black;
     border-radius: 50%;
     text-indent: -100000px;
     height: 12px;
@@ -484,7 +487,7 @@ only screen and (min-width: 1200px) {
 }
 
 .slick-dots li.slick-active button {
-    background-color: #080b1a;
+    background-color: black;
 }
 
 .slick-dots--light li button {
@@ -547,7 +550,7 @@ only screen and (min-width: 1200px) {
 Scroll Top Button
 ----------------------------------*/
 .btn-scroll-top {
-    background-color: #080b1a;
+    background-color: black;
     border-radius: 50%;
     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
@@ -636,7 +639,7 @@ blockquote:before,
 
 blockquote-title,
 .blockquote-title {
-    color: #080b1a;
+    color: black;
     text-transform: uppercase;
     font-size: 0.875rem;
     font-weight: 700;
@@ -702,7 +705,7 @@ blockquote-title,
     background-color: #FFFFFF;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    border-bottom: 2px solid #080b1a;
+    border-bottom: 2px solid black;
     position: absolute;
     left: -25px;
     top: 100%;
@@ -746,7 +749,7 @@ blockquote-title,
 }
 
 .main-menu>li.has-submenu .submenu-nav>li:hover>a {
-    background-color: #080b1a;
+    background-color: black;
     color: #FFFFFF;
 }
 
@@ -798,7 +801,7 @@ blockquote-title,
 }
 
 .main-menu>li.has-submenu .submenu-nav-mega .mega-menu-item ul li a:hover {
-    color: #080b1a;
+    color: black;
 }
 
 .main-menu>li.has-submenu:hover>.submenu-nav {
@@ -824,7 +827,7 @@ blockquote-title,
 }
 
 .res-mobile-menu .slicknav_nav {
-    background-color: #080b1a;
+    background-color: black;
     display: block !important;
     padding: 20px 30px;
 }
@@ -1000,7 +1003,7 @@ blockquote-title,
 04. Header Area Style CSS
 ===========================*/
 .header-area {
-    background-color: #080b1a;
+    background-color: black;
     padding: 30px 0;
     -webkit-transition: 0.4s;
     -o-transition: 0.4s;
@@ -1038,7 +1041,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 }
 
 .header-area.transparent:not(.sticky) {
-    background-color: transparent;
+    background-color: black;
     position: fixed;
     left: 0;
     top: 0;
@@ -1051,18 +1054,18 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 }
 
 .header-area.transparent:not(.sticky) .main-menu>li.has-submenu:after {
-    color: #080b1a;
+    color: rgb(255, 255, 255);
     font-weight: 600;
 }
 
 .header-area.transparent:not(.sticky) .main-menu>li>a {
-    color: #080b1a;
+    color: rgb(255, 255, 255);
     font-weight: 600;
 }
 
 .header-area.transparent:not(.sticky) .header-action a,
 .header-area.transparent:not(.sticky) .header-action button {
-    color: #080b1a;
+    color: black;
     font-weight: 600;
 }
 
@@ -1097,7 +1100,11 @@ only screen and (max-width: 767.98px) {
 --. Footer Style CSS
 ===========================*/
 .footer-area {
-    background-color: #f8f9fc;
+    background-color: black;
+}
+
+.footer-area>* {
+    color: white;
 }
 
 .widget-item {
@@ -1105,7 +1112,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .widget-item .widget-title {
-    color: #080b1a;
+    color: rgb(210, 70, 32);
     font-size: 22px;
     font-weight: 600;
     line-height: 1;
@@ -1130,7 +1137,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .widget-list li a {
-    color: #151515;
+    color: white;
     font-weight: 500;
     -webkit-transition: 0.2s;
     -o-transition: 0.2s;
@@ -1138,7 +1145,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .widget-list li a:hover {
-    color: #080b1a;
+    color: black;
     padding-left: 5px;
 }
 
@@ -1198,7 +1205,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .off-canvas-wrapper .close-btn {
-    color: #080b1a;
+    color: black;
     font-size: 50px;
     line-height: 1;
     position: absolute;
@@ -1221,7 +1228,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .off-canvas-wrapper .close-btn:hover {
-    color: #080b1a;
+    color: black;
 }
 
 .off-canvas-cog .off-canvas-content {
@@ -1315,7 +1322,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .log-in-content-wrap .sign-up-notification a {
-    color: #080b1a;
+    color: black;
     font-weight: 500;
 }
 
@@ -1330,7 +1337,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .social-icons a:hover {
-    color: #080b1a;
+    color: black;
 }
 
 .copyright-content {
@@ -1355,8 +1362,8 @@ only screen and (max-width: 767.98px) {
 }
 
 .form-input-item .btn-submit {
-    background-color: #080b1a;
-    border: 2px solid #080b1a;
+    background-color: black;
+    border: 2px solid black;
     color: #FFFFFF;
     display: block;
     font-size: 15px;
@@ -1366,13 +1373,13 @@ only screen and (max-width: 767.98px) {
 }
 
 .form-input-item .btn-submit:hover {
-    color: #080b1a;
+    color: black;
     background-color: transparent;
 }
 
 .form-input-item--outline input {
     background-color: transparent;
-    border: 2px solid #080b1a;
+    border: 2px solid black;
 }
 
 .form-input-item--outline .btn-submit {
@@ -1490,7 +1497,7 @@ only screen and (max-width: 767.98px) {
     position: absolute;
     right: 0;
     font-size: 20px;
-    color: #080b1a;
+    color: black;
     line-height: 1;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -1499,7 +1506,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .brand-accordion .card .card-header button[aria-expanded='true'] {
-    color: #080b1a;
+    color: black;
     margin-bottom: 10px;
 }
 
@@ -1514,6 +1521,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .brand-accordion .card .card-body p {
+    color: black;
     margin-bottom: 0;
 }
 
@@ -1547,7 +1555,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .single-skill-bar .progress .progress-bar {
-    background-color: #080b1a;
+    background-color: black;
 }
 
 /*========================
@@ -1559,9 +1567,9 @@ only screen and (max-width: 767.98px) {
 }
 
 .cd-timeline-wrap:before {
-    border: 2px solid #080b1a;
+    border: 2px solid black;
     border-radius: 50%;
-    color: #080b1a;
+    color: black;
     content: "\f19d";
     font-family: "FontAwesome";
     font-size: 25px;
@@ -1603,11 +1611,11 @@ only screen and (max-width: 767.98px) {
 }
 
 .cd-timeline-wrap .cd-timeline:before {
-    background-color: #080b1a;
+    background-color: black;
 }
 
 .cd-timeline-wrap .cd-timeline:after {
-    background-color: #080b1a;
+    background-color: black;
     border-radius: 50%;
     bottom: 0;
     content: "";
@@ -1646,7 +1654,7 @@ only screen and (max-width: 767.98px) {
 
 .cd-timeline-wrap .cd-timeline-img {
     background-color: #f8f9fc;
-    border: 2px solid #080b1a;
+    border: 2px solid black;
     -webkit-box-shadow: none;
     box-shadow: none;
     height: 35px;
@@ -1664,7 +1672,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .cd-timeline-wrap .cd-timeline-img .dot {
-    background-color: #080b1a;
+    background-color: black;
     border-radius: 50%;
     display: block;
     height: 10px;
@@ -1697,7 +1705,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .cd-timeline-wrap .cd-timeline-content h5 {
-    color: #080b1a;
+    color: black;
     font-weight: 600;
     margin-bottom: 5px;
     text-transform: uppercase;
@@ -1855,7 +1863,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .pagination-wrap .pagination li a {
-    color: #080b1a;
+    color: black;
     font-weight: 600;
     margin: 0 10px;
 }
@@ -2094,7 +2102,7 @@ only screen and (min-width: 992px) and (max-width: 1199.98px) {
 }
 
 .single-sidebar-item-wrap .sidebar-title:before {
-    background-color: #080b1a;
+    background-color: black;
     content: "";
     position: absolute;
     left: 0;
@@ -2116,7 +2124,7 @@ only screen and (min-width: 992px) and (max-width: 1199.98px) {
 }
 
 .sidebar-list li a:hover {
-    color: #080b1a;
+    color: black;
 }
 
 .sidebar-list li:last-child a {
@@ -2180,7 +2188,7 @@ only screen and (min-width: 992px) and (max-width: 1199.98px) {
 }
 
 .sidebar-newsletter h3 {
-    color: #080b1a;
+    color: black;
     font-size: 26px;
     font-weight: 600;
     line-height: 1;
@@ -2204,7 +2212,7 @@ only screen and (min-width: 992px) and (max-width: 1199.98px) {
 }
 
 .sidebar-newsletter form button {
-    border-color: #080b1a;
+    border-color: black;
     font-weight: 600;
     width: 100%;
     padding: 10px 15px;
@@ -2215,7 +2223,7 @@ only screen and (min-width: 992px) and (max-width: 1199.98px) {
 }
 
 .sidebar-newsletter form button:hover {
-    background-color: #080b1a;
+    background-color: black;
     color: #FFFFFF;
 }
 
@@ -2415,14 +2423,14 @@ Start Comment Area Wrapper
 }
 
 .single-comment-wrap .comment-footer a.btn-reply:hover {
-    color: #080b1a;
+    color: black;
 }
 
 /*==========================================
 28. Contact Page Style CSS
 ===========================================*/
 .single-input-item {
-    color: #151515;
+    color: blue;
     margin-bottom: 30px;
 }
 
@@ -2458,7 +2466,7 @@ Start Comment Area Wrapper
 
 .single-input-item input:focus,
 .single-input-item textarea:focus {
-    border-color: #080b1a;
+    border-color: black;
 }
 
 .single-input-item .nice-select {
@@ -2477,6 +2485,7 @@ Start Comment Area Wrapper
 }
 
 .contact-method h3 {
+    color: rgb(210, 70, 32);
     font-weight: 600;
     margin-bottom: 43px;
 }
@@ -2493,7 +2502,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .contact-method.contact-information {
-    background-color: #080b1a;
+    background-color: rgb(210, 70, 32);
     height: 100%;
     color: #FFFFFF;
     padding: 45px 30px;
@@ -2542,22 +2551,27 @@ only screen and (min-width: 1200px) {
 =======================*/
 .tp-caption.Button-Outline-Secondary,
 .Button-Outline-Secondary {
-    color: #FFFFFF;
+    color: rgb(210, 70, 32);
     font-size: 14px;
     line-height: 51px;
     font-weight: 700;
     font-style: normal;
     text-decoration: none;
-    background-color: #080b1a;
-    border-color: #080b1a;
+    background-color: black;
+    border-color: black;
     border-style: solid;
     border-width: 3px 3px 3px 3px;
     border-radius: 30px 30px 30px 30px;
 }
 
+#slider_txt{
+    color: rgb(210, 70, 32);
+}
+
+
 .tp-caption.Button-Outline-Secondary:hover,
 .Button-Outline-Secondary:hover {
-    color: #FFFFFF;
+    color: rgb(210, 70, 32);
     text-decoration: none;
     background-color: #080b1a;
     border-color: #080b1a;
@@ -2565,6 +2579,7 @@ only screen and (min-width: 1200px) {
     border-width: 3px 3px 3px 3px;
     border-radius: 30px 30px 30px 30px;
     cursor: pointer;
+
 }
 
 #rev_slider_11_2 .uranus.tparrows,
@@ -2622,7 +2637,7 @@ only screen and (min-width: 1200px) {
 
 #slide-27-layer-7,
 #slide-28-layer-3 {
-    color: #080b1a;
+    color: black;
 }
 
 #slide-28-layer-1,
@@ -2656,7 +2671,7 @@ only screen and (min-width: 1200px) {
 }
 
 .about-content .about-since {
-    color: #484848;
+    color: white;
     display: inline-block;
     font-size: 24px;
     font-weight: 300;
@@ -2686,7 +2701,7 @@ only screen and (min-width: 1200px) {
 }
 
 .about-content .btn-about {
-    color: #151515;
+    color: white;
     font-size: 16px;
     font-weight: 500;
     display: inline-block;
@@ -2741,7 +2756,7 @@ only screen and (min-width: 1200px) {
 }
 
 .home-two-about-area {
-    background-color: #f8f9fc;
+    background-color: #000000;
     background-image: url("../img/about-2-bg.jpg");
     background-position: center right;
     background-repeat: no-repeat;
@@ -2786,7 +2801,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 
 .video-button-thumb:after {
     content: '';
-    background-color: #080b1a;
+    background-color: black;
     opacity: 0.5;
     height: 100%;
     width: 100%;
@@ -2798,7 +2813,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 .video-button-thumb .btn-play {
     border-radius: 50%;
     background-color: #FFFFFF;
-    color: #080b1a;
+    color: black;
     font-size: 18px;
     text-align: center;
     line-height: 60px;
@@ -2814,7 +2829,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 }
 
 .video-button-thumb .btn-play:hover {
-    background-color: #080b1a;
+    background-color: black;
     color: #FFFFFF;
 }
 
@@ -2871,6 +2886,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 }
 
 .service-item .service-txt {
+    border: 2px solid rgb(210, 70, 32);
     background-color: #f8f9fc;
     padding: 25px 0;
 }
@@ -2947,6 +2963,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 12. Testimonial Style CSS
 ==============================*/
 .testimonial-item {
+    border-radius: 5px;
     background-color: #FFFFFF;
     -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
@@ -2981,6 +2998,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
     flex-basis: calc(100% - 140px);
     max-width: calc(100% - 140px);
     font-weight: 400;
+    color: black;
 }
 
 @media only screen and (max-width: 575.98px) {
@@ -2995,6 +3013,10 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 
 .testimonial-item .testimonial-txt img {
     margin-bottom: 20px;
+}
+
+.testimonial-item .testimonial-txt p {
+    color: white;
 }
 
 @media only screen and (max-width: 575.98px) {
@@ -3136,7 +3158,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 }
 
 .testimonial-arrows-2 button:hover {
-    color: #080b1a;
+    color: black;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -3243,7 +3265,8 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 
 .team-mem-item .member-info {
     text-align: center;
-    background-color: #FFFFFF;
+    border: 2px solid rgb(210, 70, 32);
+    background-color: black;
     padding: 15px 10px;
 }
 
@@ -3254,16 +3277,16 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 }
 
 .team-mem-item .member-info h5 a {
-    color: #151515;
+    color: rgb(210, 70, 32);
 }
 
 .team-mem-item .member-info h5 a:hover {
-    color: #182141;
+    color: white;
 }
 
 .team-mem-item .member-info .designation {
     font-weight: 400;
-    color: #080b1a;
+    color: white;
 }
 
 .team-mem-item .member-pic img {
@@ -3383,7 +3406,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 }
 
 .team-area-left {
-    background-color: #080b1a;
+    background-color: black;
     padding: 110px 100px 105px;
     height: 100%;
 }
@@ -3430,7 +3453,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 }
 
 .team-area-right--2:before {
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: black;
     content: '';
     position: absolute;
     left: 0;
@@ -3465,6 +3488,10 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 
 .blog-item .blog-content {
     padding: 50px 30px 45px;
+}
+
+.blog-item .blog-content>p {
+    color: black;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -3537,7 +3564,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 }
 
 .counter-number {
-    color: #f8f9fc;
+    color: rgb(210, 70, 32);
     margin-bottom: 10px;
     position: relative;
     font-size: 24px;
@@ -3623,7 +3650,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 }
 
 .page-header-area .page-header-content-inner h2 {
-    color: #FFFFFF;
+    color: rgb(210, 70, 32);
     font-size: 3.4375rem;
 }
 
@@ -3711,7 +3738,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 
 .history-item h6 {
     font-weight: 700;
-    color: #080b1a;
+    color: black;
 }
 
 .history-item h3 {
@@ -3724,7 +3751,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 ================================*/
 .pricing-plan-buttons ul li a {
     background-color: transparent;
-    border: 2px solid #080b1a;
+    border: 2px solid black;
     color: #151515;
     display: inline-block;
     font-size: 14px;
@@ -3743,7 +3770,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 }
 
 .pricing-plan-buttons ul li a:before {
-    background-color: #080b1a;
+    background-color: black;
     content: '';
     position: absolute;
     left: -100%;
@@ -3795,6 +3822,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
     -ms-flex-pack: center;
     justify-content: center;
     margin: 30px 0;
+    color: black;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -3827,6 +3855,7 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 }
 
 .pricing-plan-item .price-list li {
+    color: black;
     margin-bottom: 10px;
     font-weight: 500;
 }
